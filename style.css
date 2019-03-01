@@ -1,0 +1,99 @@
+body {
+    background: url(../../Github/UTAUS201902FSF3-FT/01-class-content/01-html-git-css/02-Homework/Solutions/recommended-homework-solution/assets/images/concrete_seamless.png);
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+
+/********HEADER/NAV********/
+nav {
+    background-color: #ffffff;
+}
+
+#navbar-brand {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a:link,a:visited,a:hover,a:active {
+    text-decoration:none;
+    color: #777777;
+    border-left: 1px solid #efefef;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+a:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+/********MAIN CONTENT********/
+/* All Headers */
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: #cccccc;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* main section content */
+#main {
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#main-content {
+    margin-top: 30px;
+}
+
+/* About Me photo */
+#me {
+    padding: 10px;
+}
+
+/* Portfolio words in images */
+img {
+    padding: 10px;
+}
+
+.port {
+    position: relative;
+    padding: 0;
+}
+
+.text-block {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+/********FOOTER********/
+#foot {
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+}
+
+
